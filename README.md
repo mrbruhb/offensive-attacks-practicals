@@ -110,7 +110,7 @@ flask
 
 ### Overview
 
-The goal of this task was to understand the cryptographic mechanisms that make modern ransomware effective and difficult to reverse without paying the ransom. The script implements the hybrid encryption scheme used by real-world ransomware families like WannaCry and REvil — AES for fast bulk file encryption, and RSA to protect the AES key so only the attacker can recover it.
+The goal of this task was to understand the cryptographic mechanisms that make modern ransomware effective and difficult to reverse without paying the ransom. The script implements the hybrid encryption scheme used by real-world ransomware families like WannaCry and REvil, AES for fast bulk file encryption, and RSA to protect the AES key so only the attacker can recover it.
 
 Understanding this pattern is essential for defenders: it explains why backups are the primary mitigation, why decryption without the private key is computationally infeasible, and how ransomware operators maintain leverage over victims.
 
