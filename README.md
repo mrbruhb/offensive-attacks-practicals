@@ -1,6 +1,6 @@
-# Ethical Hacking — Assignment Portfolio
+# Ethical Hacking — Offensive Practicals
 
-A collection of practical cybersecurity exercises covering network-layer attacks, web application exploitation, and malware mechanics. All work was completed in isolated lab environments as part of a university ethical hacking course.
+A collection of practical cybersecurity exercises covering network-layer attacks, web application exploitation, and malware mechanics. All work was completed in isolated lab environments.
 
 ---
 
