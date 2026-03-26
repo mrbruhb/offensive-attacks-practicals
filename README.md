@@ -20,9 +20,9 @@ A collection of practical cybersecurity exercises covering network-layer attacks
 
 ### Overview
 
-The goal of this task was to understand how ARP poisoning enables a Man-in-the-Middle (MITM) attack at the network layer. ARP has no authentication — any host can claim ownership of an IP address by broadcasting a forged reply. By exploiting this, an attacker can silently insert themselves between a victim and their router, intercepting all traffic passing between them.
+The goal of this task was to understand how ARP poisoning enables a Man-in-the-Middle (MITM) attack at the network layer. ARP has no authentication, so any host can claim ownership of an IP address by sending a forged reply. By taking advantage of this, an attacker can place themselves between a victim and their router and intercept all traffic between them.
 
-The exercise also reinforces responsible penetration testing practice — the script restores both ARP tables to their legitimate state on exit, leaving the network unchanged after the attack concludes.
+The exercise also reinforces responsible penetration testing practice. The script restores both ARP tables to their original state when it stops, so the network is left unchanged after the attack.
 
 ### Files
 
@@ -63,9 +63,9 @@ scapy
 
 ### Overview
 
-The goal of this task was to understand how XSS vulnerabilities allow an attacker to execute arbitrary JavaScript in a victim's browser, and how that can be leveraged to steal session cookies and hijack authenticated sessions.
+The goal of this task was to understand how XSS vulnerabilities allow an attacker to run arbitrary JavaScript in a victim’s browser, and how that can be used to steal session cookies and take over authenticated sessions.
 
-Two variants are covered — reflected XSS (payload executes immediately via a malicious input) and stored XSS (payload is persisted to the database and executes for every subsequent user who loads the page), demonstrating why stored XSS is significantly more dangerous at scale.
+Two variants are covered. Reflected XSS runs immediately through a malicious input, while stored XSS is saved in the database and runs for every user who loads the page. This shows why stored XSS is much more dangerous at scale.
 
 ### Files
 
